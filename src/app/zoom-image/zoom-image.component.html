@@ -1,6 +1,6 @@
 <div class="img-zoom-container">
   <div class="image-container" (mouseout)="onMouseOut($event)" (mouseover)="onMouseOver($event)">
-    <div #lens class="img-zoom-lens"></div>
+    <div #lens class="img-zoom-lens" (mousemove)="onMouseMove($event)" (touchmove)="onMouseMove($event)"></div>
     <img #image class="image" alt="" (mousemove)="onMouseMove($event)" (touchmove)="onMouseMove($event)">
   </div>
   <div #myresult class="img-zoom-result"></div>
