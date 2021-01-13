@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'zoom-image';
   selectImageToPreview: any;
-  images = ['./../assets/images/1.jpg',
+  images = ['./../assets/images/sofa.jpg',
     './../assets/images/2.jpg',
     './../assets/images/3.jpg']
 }

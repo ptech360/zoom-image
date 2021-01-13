@@ -4,3 +4,7 @@ ul li {
     display: inline;
     margin: 10px;
 }
+
+body{
+    height: 1000px;
+}
